@@ -1,0 +1,28 @@
+body {
+  min-height: 100vh;
+}
+
+path, rect {
+  transition: ease 0.3s;
+}
+
+#detection-chamber:hover path,
+#detection-chamber:hover rect {
+  fill: yellow !important;
+  transition: ease 0.3s;
+}
+
+#doping-chamber:hover path,
+#doping-chamber:hover rect {
+  fill: yellow !important;
+}
+
+#source-chamber:hover path,
+#source-chamber:hover rect {
+  fill: yellow !important;
+}
+
+#liquid-nitrogen-trap:hover path,
+#liquid-nitrogen-trap:hover rect {
+  fill: yellow !important;
+}
